@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>APIVerve.API.TimezoneLookup</Title>
+    <Version>1.0.0</Version>
+    <Authors>APIVerve</Authors>
+    <Company>APIVerve</Company>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
+    <PackageReadmeFile>Readme.md</PackageReadmeFile>
+    <PackageProjectUrl>https://apiverve.com/marketplace/api/timezonelookup</PackageProjectUrl>
+    <SignAssembly>False</SignAssembly>
+    <Description>Timezone Lookup is a simple tool for looking up timezone data. It returns the timezone name, offset, and more.</Description>
+    <RepositoryUrl>https://github.com/apiverve/timezonelookup-NET</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>timezone lookup; timezone lookup api; timezone lookup tool; timezone lookup software; timezone lookup service; timezone lookup library; timezone lookup sdk; timezone lookup code; timezone lookup script; timezone lookup program; timezone lookup application; timezone lookup app; timezone lookup utility; timezone lookup helper; timezone lookup helper tool; timezone lookup helper software; timezone lookup helper service; timezone lookup helper library; timezone lookup helper sdk; timezone lookup helper code; timezone lookup helper script; timezone lookup helper program; timezone lookup helper application; timezone lookup helper app; timezone lookup helper tool; timezone lookup helper utility; timezone lookup helper</PackageTags>
+    <Copyright>©2024 APIVerve. All Rights Reserved</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="Readme.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
