@@ -96,17 +96,17 @@ if(response.error != null) {
   "data": {
     "timezone": "America/New_York",
     "timezone_offset": -240,
-    "date": "2024-05-12",
-    "time": "23:34",
-    "time24": "23:34:35",
-    "time12": "11:34:35 PM",
-    "day": "Sunday",
+    "date": "2024-05-15",
+    "time": "17:53",
+    "time24": "17:53:17",
+    "time12": "05:53:17 PM",
+    "day": "Wednesday",
     "month": "May",
     "year": "2024",
-    "unix": "1715571275",
+    "unix": "1715809997",
     "dst": true,
-    "dst_start": "2024-05-12 23:34:35",
-    "dst_end": "2024-05-12 23:34:35",
+    "dst_start": "2024-05-15 17:53:17",
+    "dst_end": "2024-05-15 17:53:17",
     "dst_name": "EDT"
   }
 }
