@@ -5,7 +5,7 @@ using System.Text;
 namespace APIVerve
 {
     public class timezonelookupQueryOptions {
-public string timezone { get; set; }
+public string city { get; set; }
 }
 
 }
