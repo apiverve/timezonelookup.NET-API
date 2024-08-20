@@ -70,7 +70,7 @@ Using the API client, you can perform requests to the API.
 ###### Define Query
 
 ```
-var queryOptions = new timezonelookupQueryOptions {
+var queryOptions = new TimezoneLookupQueryOptions {
   city = "Harare"
 };
 ```
@@ -96,19 +96,20 @@ if(response.error != null) {
   "data": {
     "timezone": "Africa/Harare",
     "timezone_offset": 120,
-    "date": "2024-07-17",
-    "time": "17:19",
-    "time24": "17:19:42",
-    "time12": "05:19:42 PM",
+    "date": "2024-08-14",
+    "time": "08:18",
+    "time24": "08:18:10",
+    "time12": "08:18:10 AM",
     "day": "Wednesday",
-    "month": "July",
+    "month": "August",
     "year": "2024",
-    "unix": "1721229582",
+    "unix": "1723616290",
     "dst": false,
-    "dst_start": "2024-07-17 17:19:42",
-    "dst_end": "2024-07-17 17:19:42",
+    "dst_start": "2024-08-14 08:18:10",
+    "dst_end": "2024-08-14 08:18:10",
     "dst_name": "CAT"
-  }
+  },
+  "code": 200
 }
 ```
 
